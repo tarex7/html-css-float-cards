@@ -19,6 +19,7 @@ body {
 
 header {
   text-align: center;
+  margin-top: 3rem;
 }
 
 h1 {
@@ -28,12 +29,13 @@ h1 {
   margin-bottom: 3rem;
 }
 
-h5 {
+h4 {
   text-transform: uppercase;
+  margin: 5px 0;
 }
 
 img {
-  height: 98px;
+  height: 100px;
 }
 
 a {
@@ -41,9 +43,10 @@ a {
   text-decoration: none;
 }
 
-span {
-  display: block;
+p {
+    margin: 5px 0;
 }
+
 /* Utilities */
 
 .clearfix:after {
@@ -52,15 +55,14 @@ span {
   clear: both;
 }
 .cards {
-    margin: 3rem auto;
-    color: #fff;
+  margin: 2rem ;
+  color: #fff;
 }
 
 .card {
-    background-color: #000;
-    width: calc(100% / 3 - 10px );
-    height: 100px;
-    margin:  5px;
+  background-color: #000;
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
 }
 
 .card-body {
